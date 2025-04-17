@@ -23,21 +23,21 @@ document.body.appendChild(heading);
 ## Métodos get
 get -> significa obter
  
-```document.getElementById('titulo')```  obter informação atraves do Id|
-```getElementsByClassName('titulo')```   obter informação atraves da Class|
-```getElementsByTagName('li')```        -> obter informação atraves da Tag|
-```document.getElementsByName```        -> obter todos os elementos com o nome|
+```document.getElementById('titulo')```  obter informação atraves do Id
+```getElementsByClassName('titulo')```   obter informação atraves da Class
+```getElementsByTagName('li')```        -> obter informação atraves da Tag
+```document.getElementsByName```        -> obter todos os elementos com o nome
 ```Element.remove()```                  -> remove o elemento
 
 -------------------------------------------------------------------------------------
 
-```document.querySelector('p')```              -> Busca elemento dentro do selector 'p'|
+```document.querySelector('p')```              -> Busca elemento dentro do selector 'p'
 ```(document.querySelector('.myclass'))```     -> Busca somente a classe
 
 -------------------------------------------------------------------------------------
 
 ## Eventos
 
-```const Clique = () => { document.querySelector('#my-span') }``` -> Função chamada pelo evento onclick|
+```const Clique = () => { document.querySelector('#my-span') }``` -> Função chamada pelo evento onclick
 ```document.querySelectorAll(seletores)```  ->  é uma string com um ou mais seletores desejados. Para mais de um seletor, deve-se separá-los por vírgula
 
